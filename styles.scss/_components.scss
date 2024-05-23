@@ -1,0 +1,149 @@
+.logo-lu {
+    width: 70px;
+    right: auto;
+    margin-left: 30px;
+}
+
+.color-icon {
+    color: #D0F456;
+}
+
+.color-icon-menu {
+    color: #FFFFFF;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.texto-principal {
+    padding: 50px 50px 0px 60px;
+    display: flex;
+    text-align: center;
+}
+
+.contenedor-imagen-proyectos {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lista-servicios li {
+    list-style-type: circle;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+.items {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.contenedor-texto-destacado {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 50px;
+    width: 100%;
+    background-color: #444444;
+    margin: 20px 0px;
+
+    h2 {
+        color: #D0F456;
+        font-size: 35px;
+        text-align: center;
+        padding: 0px 50px;
+    }
+}
+
+.contenedor-reseñas,
+.contenedor-packs {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-texto-destacado2,
+.contenedor-brand {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #444444;
+    padding: 60px 60px;
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #444444;
+    padding: 40px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+textarea {
+    background: none;
+    border: 2px solid #D0F456;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #797979;
+    text-align: left;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-formulario {
+    border: none;
+    text-align: center;
+    background-color: #4F84FA;
+    border-radius: 10px;
+    width: 700px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #2e59b5;
+        color: #ede2e2;
+        transition: 0.5s ease;
+    }
+}
+
+.galeria {
+    display: grid;
+    grid-gap: 20px;
+
+    img {
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+.parent-icons {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin: 70px 130px;
+    transform: scale(2);
+}

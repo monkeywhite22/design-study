@@ -1,0 +1,60 @@
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include border(1px, solid, #ccc, 15px);
+    background-color: #444444;
+    padding: 40px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+input {
+    background: none;
+    @include border(2px, solid, #D0F456, 10px);
+    padding: 20px;
+    @include font("Poppins", 400, normal, 18px, #FFFFFF);
+    text-align: left;
+}
+
+textarea {
+    background: none;
+    @include border(2px, solid, #D0F456, 10px);
+    padding: 20px;
+    @include font("Poppins", 400, normal, 18px, #797979);
+    text-align: left;
+}
+
+label {
+    @include font("Poppins", 400, normal, 20px, #FFFFFF);
+    text-align: left;
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-formulario {
+    border: none;
+    text-align: center;
+    background-color: #4F84FA;
+    border-radius: 10px;
+    width: 700px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #2e59b5;
+        color: #ede2e2;
+        transition: 0.5s ease;
+    }
+}
